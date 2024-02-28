@@ -5,7 +5,7 @@ import { FaTrashAlt } from'react-icons/fa'
 
 const Content = ({items , handleCheck, handleDelete }) => {
 
-  return ( 
+  return (
     <>
       {(items.length) ? (
         <ul>
